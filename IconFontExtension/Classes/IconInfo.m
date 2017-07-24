@@ -13,7 +13,13 @@
 
 - (instancetype)initWithText:(NSString *)text size:(NSInteger)size color:(UIColor *)color {
     if (self = [super init]) {
-        self.text = iconUnicodeWithName(text);
+        NSString *iName = IconNameSelector(text);
+        if (iName.length) {
+            iName = iconUnicodeWithName(iName);
+        } else {
+            iName = iconUnicodeWithName(text);
+        }
+        self.text = iName;
         self.size = size;
         self.color = color;
     }
