@@ -13,6 +13,13 @@
 		54E9DE601F248DC40051925F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E9DE5E1F248DC40051925F /* Main.storyboard */; };
 		54E9DE621F248DC40051925F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E9DE611F248DC40051925F /* Assets.xcassets */; };
 		54E9DE651F248DC40051925F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E9DE631F248DC40051925F /* LaunchScreen.storyboard */; };
+		54E9DE6D1F2490440051925F /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54E9DE6C1F2490440051925F /* iconfont.ttf */; };
+		54E9DE731F24AD7C0051925F /* IconFontMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54E9DE721F24AD7C0051925F /* IconFontMap.plist */; };
+		54E9DE851F250AEF0051925F /* IconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E9DE7C1F250AEF0051925F /* IconButton.m */; };
+		54E9DE861F250AEF0051925F /* IconImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E9DE7E1F250AEF0051925F /* IconImageView.m */; };
+		54E9DE871F250AEF0051925F /* IconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E9DE801F250AEF0051925F /* IconInfo.m */; };
+		54E9DE881F250AEF0051925F /* IconLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E9DE821F250AEF0051925F /* IconLabel.m */; };
+		54E9DE891F250AEF0051925F /* UIImage+IconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E9DE841F250AEF0051925F /* UIImage+IconFont.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,19 @@
 		54E9DE611F248DC40051925F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54E9DE641F248DC40051925F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54E9DE661F248DC40051925F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E9DE6C1F2490440051925F /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		54E9DE721F24AD7C0051925F /* IconFontMap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IconFontMap.plist; sourceTree = "<group>"; };
+		54E9DE741F24CDA50051925F /* IconFontMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconFontMap.h; sourceTree = "<group>"; };
+		54E9DE7B1F250AEF0051925F /* IconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconButton.h; sourceTree = "<group>"; };
+		54E9DE7C1F250AEF0051925F /* IconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconButton.m; sourceTree = "<group>"; };
+		54E9DE7D1F250AEF0051925F /* IconImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconImageView.h; sourceTree = "<group>"; };
+		54E9DE7E1F250AEF0051925F /* IconImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconImageView.m; sourceTree = "<group>"; };
+		54E9DE7F1F250AEF0051925F /* IconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconInfo.h; sourceTree = "<group>"; };
+		54E9DE801F250AEF0051925F /* IconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconInfo.m; sourceTree = "<group>"; };
+		54E9DE811F250AEF0051925F /* IconLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconLabel.h; sourceTree = "<group>"; };
+		54E9DE821F250AEF0051925F /* IconLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconLabel.m; sourceTree = "<group>"; };
+		54E9DE831F250AEF0051925F /* UIImage+IconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+IconFont.h"; sourceTree = "<group>"; };
+		54E9DE841F250AEF0051925F /* UIImage+IconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+IconFont.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 		54E9DE541F248DC40051925F /* IconFontExtension */ = {
 			isa = PBXGroup;
 			children = (
+				54E9DE6E1F249C420051925F /* Classes */,
 				54E9DE581F248DC40051925F /* AppDelegate.h */,
 				54E9DE591F248DC40051925F /* AppDelegate.m */,
 				54E9DE5B1F248DC40051925F /* ViewController.h */,
@@ -66,7 +87,9 @@
 				54E9DE611F248DC40051925F /* Assets.xcassets */,
 				54E9DE631F248DC40051925F /* LaunchScreen.storyboard */,
 				54E9DE661F248DC40051925F /* Info.plist */,
+				54E9DE6C1F2490440051925F /* iconfont.ttf */,
 				54E9DE551F248DC40051925F /* Supporting Files */,
+				54E9DE721F24AD7C0051925F /* IconFontMap.plist */,
 			);
 			path = IconFontExtension;
 			sourceTree = "<group>";
@@ -77,6 +100,24 @@
 				54E9DE561F248DC40051925F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54E9DE6E1F249C420051925F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				54E9DE7B1F250AEF0051925F /* IconButton.h */,
+				54E9DE7C1F250AEF0051925F /* IconButton.m */,
+				54E9DE7D1F250AEF0051925F /* IconImageView.h */,
+				54E9DE7E1F250AEF0051925F /* IconImageView.m */,
+				54E9DE7F1F250AEF0051925F /* IconInfo.h */,
+				54E9DE801F250AEF0051925F /* IconInfo.m */,
+				54E9DE811F250AEF0051925F /* IconLabel.h */,
+				54E9DE821F250AEF0051925F /* IconLabel.m */,
+				54E9DE831F250AEF0051925F /* UIImage+IconFont.h */,
+				54E9DE841F250AEF0051925F /* UIImage+IconFont.m */,
+				54E9DE741F24CDA50051925F /* IconFontMap.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +179,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E9DE6D1F2490440051925F /* iconfont.ttf in Resources */,
 				54E9DE651F248DC40051925F /* LaunchScreen.storyboard in Resources */,
 				54E9DE621F248DC40051925F /* Assets.xcassets in Resources */,
 				54E9DE601F248DC40051925F /* Main.storyboard in Resources */,
+				54E9DE731F24AD7C0051925F /* IconFontMap.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +194,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E9DE851F250AEF0051925F /* IconButton.m in Sources */,
+				54E9DE891F250AEF0051925F /* UIImage+IconFont.m in Sources */,
+				54E9DE881F250AEF0051925F /* IconLabel.m in Sources */,
 				54E9DE5D1F248DC40051925F /* ViewController.m in Sources */,
+				54E9DE871F250AEF0051925F /* IconInfo.m in Sources */,
 				54E9DE5A1F248DC40051925F /* AppDelegate.m in Sources */,
 				54E9DE571F248DC40051925F /* main.m in Sources */,
+				54E9DE861F250AEF0051925F /* IconImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +322,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6GK89F99M5;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = IconFontExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shaolie.lin.IconFontExtension;
