@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "IconLabel.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *iconLabel;
 
 @end
 
@@ -16,14 +19,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    // 灯泡
+    _iconLabel.text = @"\U0000e881";
+    
+    IconLabel *iconLabel = [[IconLabel alloc] initWithIconName:@"灯泡" fontSize:30];
+    iconLabel.frame = CGRectMake(100, 100, iconLabel.frame.size.width, iconLabel.frame.size.height);
+    [self.view addSubview:iconLabel];
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end

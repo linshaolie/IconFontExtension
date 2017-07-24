@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>加号</key>
+    <string>e641</string>
+    <key>实红心</key>
+    <string>e86f</string>
+    <key>空红心</key>
+    <string>e870</string>
+    <key>灯泡</key>
+    <string>e881</string>
+    <key>返回</key>
+    <string>e8b5</string>
+    <key>back</key>
+    <string>e8b5</string>
+</dict>
+</plist>
