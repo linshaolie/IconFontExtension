@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 static NSString * _Nullable iconfontWithName(NSString * __nonnull name) {
     static NSDictionary *iconFontMap = nil;
-#if DEBUG
+#if DEBUG && TARGET_OS_SIMULATOR
     NSString *fullPath = [SRCROOT stringByAppendingString:@"IconFontMap.plist"];
     iconFontMap = [NSDictionary dictionaryWithContentsOfFile:fullPath];
 #endif
