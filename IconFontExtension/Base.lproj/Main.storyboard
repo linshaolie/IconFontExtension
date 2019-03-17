@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -42,7 +42,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image=" " translatesAutoresizingMaskIntoConstraints="NO" id="Rpd-WI-hMK" customClass="IconImageView">
-                                <rect key="frame" x="233" y="178.5" width="24" height="24"/>
+                                <rect key="frame" x="233" y="182.5" width="16" height="16"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="iconName" value="返回"/>
@@ -58,12 +58,14 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="OlS-vC-QNt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="5Dw-56-bW1"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OlS-vC-QNt" secondAttribute="trailing" constant="20" symbolic="YES" id="BRP-cX-dIG"/>
                             <constraint firstItem="saF-Cs-2fO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OPY-KJ-pbD"/>
                             <constraint firstItem="Rpd-WI-hMK" firstAttribute="leading" secondItem="saF-Cs-2fO" secondAttribute="trailing" constant="30.5" id="Qtt-NS-Lip"/>
                             <constraint firstItem="OlS-vC-QNt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="110" id="WCJ-66-Q6R"/>
                             <constraint firstItem="saF-Cs-2fO" firstAttribute="leading" secondItem="OiR-7B-2m3" secondAttribute="trailing" constant="44.5" id="jfW-Qv-xhb"/>
                             <constraint firstItem="Rpd-WI-hMK" firstAttribute="centerY" secondItem="saF-Cs-2fO" secondAttribute="centerY" id="nLI-5A-Eze"/>
                             <constraint firstItem="OiR-7B-2m3" firstAttribute="centerY" secondItem="saF-Cs-2fO" secondAttribute="centerY" id="ryY-uI-W9k"/>
+                            <constraint firstItem="OiR-7B-2m3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="vOv-Qa-IsT"/>
                             <constraint firstItem="saF-Cs-2fO" firstAttribute="top" secondItem="OlS-vC-QNt" secondAttribute="bottom" constant="15" id="zcv-Be-8jL"/>
                         </constraints>
                     </view>
